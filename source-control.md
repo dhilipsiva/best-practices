@@ -1,3 +1,5 @@
+# Source Control
+
 * Prefer Git unless you have any oher strong reason to use somthing else.
 * Keep your runnables on root of your repo.
 * Have to main branches - prod (for production) and dev (development) branches.
@@ -11,3 +13,4 @@
 * Try to user --no-ff to preserve branching history.
 * We almost always write our new code at the end of the file. This will lead to merge conflict if all of us work on same part of file. Instead, try to write new codes other than the end of file. some where it is more appropriate. This will prevent merge conflict to an extent.
 * It is always a good idea to have release notes with a diff of codes. Great for reviews.
+* Merge vs. Rebase: Use merge when you want to preserve the branching tree. Using merge will result in a additional merge commit. Use rebase if you dont need preserve the branching tree and avoid the additional merge commit.
