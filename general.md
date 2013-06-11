@@ -12,4 +12,4 @@
 * Always stick to the standards and general patterns as much as possible. By that way, any new member in the team can figure things on himself without much help from the others.
 * If the logic / idea behind the code is not obvious, either write a crystal clear documentation or rewrite the code so it is obvious.
 * Remove redundant pieces of code, UI or anything.
-* Never update a production server. If there are any compelling reasons to update your server, have an Identical staging server, update/ upgrade it, run your kick-ass test cases and if everything seems to be right, then you may continue updating your production server. 
+* Never update / upgrade / modify a production server before intensive testing. If there are any compelling reasons to update your server, have an Identical staging server, update / upgrade it, run your kick-ass test cases and if everything seems to be right, then you may continue updating your production server. 
