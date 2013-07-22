@@ -14,3 +14,4 @@
 * We almost always write our new code at the end of the file. This will lead to merge conflict if all of us work on same part of file. Instead, try to write new codes other than the end of file. some where it is more appropriate. This will prevent merge conflict to an extent.
 * It is always a good idea to have release notes with a diff of codes. Great for reviews.
 * Merge vs. Rebase: Use merge when you want to preserve the branching tree. Using merge will result in a additional merge commit. Use rebase if you dont need preserve the branching tree and avoid the additional merge commit.
+* Never commit any external libraries that can be downloaded elsewhere. Possible alternatives are package managers, git sub-modules or Makefiles. 
